@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>EasyDrive - Autos</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+<body>
+  <div class="encabezado">
+    <h1>EasyDrive</h1>
+    <p>Tu mejor opción en alquiler de vehículos</p>
+  </div>
+
+  <div class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="autos.html">Autos</a>
+    <a href="contacto.html">Contacto</a>
+  </div>
+
+  <div class="contenido">
+    <h2>Autos Disponibles</h2>
+    <div class="galeria">
+      <div class="auto" onmouseover="mostrarInfo('info1')" onmouseout="ocultarInfo('info1')">
+        <img src="imagenes/toyota corolla.jpg" alt="Toyota Corolla">
+        <div class="descripcion">
+          <strong>Toyota Corolla</strong><br>
+          Sedán moderno, ideal para viajes urbanos o carretera.
+        </div>
+        <div id="info1" class="info">
+          <strong>$40USD/día</strong>
+        </div>
+      </div>
+
+      <div class="auto" onmouseover="mostrarInfo('info2')" onmouseout="ocultarInfo('info2')">
+        <img src="imagenes/Chevrolet Spark.jpg" alt="Chevrolet Spark">
+        <div class="descripcion">
+          <strong>Chevrolet Spark</strong><br>
+          Compacto y económico, perfecto para la ciudad.
+        </div>
+        <div id="info2" class="info">
+          <strong>$30USD/día</strong>
+        </div>
+      </div>
+
+      <div class="auto" onmouseover="mostrarInfo('info3')" onmouseout="ocultarInfo('info3')">
+        <img src="imagenes/Kia Sportage.jpg" alt="Kia Sportage">
+        <div class="descripcion">
+          <strong>Kia Sportage</strong><br>
+          SUV espacioso y cómodo para toda la familia.
+        </div>
+        <div id="info3" class="info">
+          <strong>$50USD/día</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pie">
+    <p>&copy; 2025 EasyDrive</p>
+  </div>
+</body>
+</html>
+
